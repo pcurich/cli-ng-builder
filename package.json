@@ -1,0 +1,31 @@
+{
+  "name": "cli-ng-builder",
+  "version": "1.0.0",
+  "description": "Proyecto CLI para crear estructuras de angular",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcurich/cli-ng-builder.git"
+  },
+  "keywords": [
+    "cli",
+    "angular"
+  ],
+  "author": "Pedro Curich <curichpedro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcurich/cli-ng-builder/issues"
+  },
+  "homepage": "https://github.com/pcurich/cli-ng-builder#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.12",
+    "shelljs": "^0.8.5"
+  },
+  "bin": "./index.js"
+}
